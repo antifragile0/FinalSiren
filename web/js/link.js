@@ -11,13 +11,13 @@ let filteredProxyList = []
 let selectedProxy = null
 const defaultProxyUrl = "https://raw.githubusercontent.com/AFRcloud/ProxyList/refs/heads/main/ProxyList.txt"
 
-const serverDomains = ["afrcloud.biz.id"]
+const serverDomains = ["siren.tedx.dpdns.org"]
 let selectedServerDomain = serverDomains[0] // Default to first domain
 const defaultUUID = "bbbbbbbb-cccc-4ddd-eeee-ffffffffffff"
 const itemsPerPage = 10
 let currentPage = 1
 
-const pathTemplate = "/afrcloud/{ip}-{port}"
+const pathTemplate = "/tedx/{ip}-{port}"
 
 // Array of bug options for easy management
 const bugOptions = [
